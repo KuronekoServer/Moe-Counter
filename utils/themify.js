@@ -32,7 +32,7 @@ function convertToDatauri(path){
   return `data:${mime};base64,${base64}`
 }
 
-function getCountImage({ count, theme='moebooru', length=7 }) {
+function getCountImage({ count, theme='moebooru', length=8 }) {
   if(!(theme in themeList)) theme = 'moebooru'
 
   // This is not the greatest way for generating an SVG but it'll do for now
