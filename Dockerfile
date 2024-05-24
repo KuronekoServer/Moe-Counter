@@ -1,10 +1,10 @@
-FROM node:14
+FROM node:lts
 
 WORKDIR /app
 
 COPY . .
 
-RUN yarn install
+RUN npm i
 
 EXPOSE 3000
 
