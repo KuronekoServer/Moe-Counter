@@ -1,45 +1,33 @@
 # Moe-Counter
 
-多种风格可选的萌萌计数器
+様々なスタイルから選べるmoe-counter
 
-![Moe-Counter](https://count.getloli.com/get/@Moe-counter.github)
+![Moe-Counter](https://moe-counter.kuroneko6423.com/get/@Moe-counter.github)
 
 <details>
 <summary>More theme</summary>
 
 ##### asoul
-![asoul](https://count.getloli.com/get/@demo?theme=asoul)
+![asoul](https://moe-counter.kuroneko6423.com/get/@demo?theme=asoul)
 
 ##### moebooru
-![moebooru](https://count.getloli.com/get/@demo?theme=moebooru)
-
-##### rule34
-![Rule34](https://count.getloli.com/get/@demo?theme=rule34)
-
-##### gelbooru
-![Gelbooru](https://count.getloli.com/get/@demo?theme=gelbooru)</details>
+![moebooru](https://moe-counter.kuroneko6423.com/get/@demo?theme=moebooru)
 
 ## Demo
-[https://count.getloli.com](https://count.getloli.com)
+[https://moe-counter.kuroneko6423.com](https://moe-counter.kuroneko6423.com)
 
 ## Usage
 
 ### Install
 
-#### Run on Replit
-
-- Open the url [https://replit.com/@journeyad/Moe-Counter](https://replit.com/@journeyad/Moe-Counter)
-- Just hit the **Fork** button
-- And hit the **Run** button
-
 #### Deploying on your own server
 
 ```shell
-$ git clone https://github.com/journey-ad/Moe-Counter.git
+$ git clone https://github.com/kuronekoserver/Moe-Counter.git
 $ cd Moe-Counter
-$ yarn install
+$ npm i
 
-$ yarn start
+$ node index.js
 ```
 
 ### Configuration
@@ -48,7 +36,7 @@ $ yarn start
 
 ```yaml
 app:
-  # site: https://count.getloli.com # your website
+  site: https://moe-counter.kuroneko6423.com # your website
   port: 3000
 
 db:
@@ -62,19 +50,11 @@ If you use mongodb, you need to specify the environment variable `DB_URL`
 export DB_URL=mongodb+srv://account:passwd@***.***.***.mongodb.net/db_count
 ```
 
-replit can use Secrets, [documentation](https://docs.replit.com/programming-ide/storing-sensitive-information-environment-variables)
-
-```
-DB_URL="mongodb+srv://account:passwd@***.***.***.mongodb.net/db_count"
-```
-
 ## Credits
 
 *   [replit](https://replit.com/)
 *   [A-SOUL_Official](https://space.bilibili.com/703007996)
 *   [moebooru](https://github.com/moebooru/moebooru)
-*   rule34.xxx NSFW
-*   gelbooru.com NSFW
 *   [Icons8](https://icons8.com/icons/set/star)
 
 ## License
