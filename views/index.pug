@@ -34,15 +34,23 @@ html
       img(src='#{site}/get/@demo?theme=asoul', alt='A-SOUL')
       h5 moebooru
       img(src='#{site}/get/@demo?theme=moebooru', alt='Moebooru')
+      h5 rule34
+      img(src='#{site}/get/@demo?theme=rule34', alt='Rule34')
+      h5 gelbooru
+      img(src='#{site}/get/@demo?theme=gelbooru', alt='Gelbooru')
 
     h3 Credits
     ul
       li
-        a(href='https://kuroneko6423.com/', target='_blank', rel='nofollow') KuronekoServer
-      li
         a(href='https://space.bilibili.com/703007996', target='_blank', title='A-SOUL_Official') A-SOUL
       li
         a(href='https://github.com/moebooru/moebooru', target='_blank', rel='nofollow') moebooru
+      li
+        a(href='javascript:alert("!!! NSFW LINK !!!\\nPlease enter the url manually")') rule34.xxx
+        |  NSFW
+      li
+        a(href='javascript:alert("!!! NSFW LINK !!!\\nPlease enter the url manually")') gelbooru.com
+        |  NSFW
       li
         a(href='https://icons8.com/icons/set/star', target='_blank', rel='nofollow') Icons8
 
@@ -54,6 +62,8 @@ html
       select#theme(style='display: inline-block; height: 1.6em; line-height: 1.6em; font-size: 14px; margin: 0 4px; padding: 0 4px; vertical-align: middle;')
         option(value='asoul') asoul
         option(value='moebooru') moebooru
+        option(value='rule34') rule34
+        option(value='gelbooru') gelbooru
       button#get(style='margin: 10px 0;', onclick='_evt_push("click", "normal", "get_counter")') Get
       img#result(style='display: block;')
 
@@ -78,3 +88,7 @@ html
 
     p.copy
       a(href='https://github.com/kuronekoserver/Moe-Counter', target='_blank', onclick='_evt_push("click", "normal", "go_github")') source code
+    
+    p.copy
+      i Hosted by
+      a(href='https://github.com/kuronekoserver/Moe-Counter', target='_blank', onclick='_evt_push("click", "normal", "go_github")')  KuronekoServer
