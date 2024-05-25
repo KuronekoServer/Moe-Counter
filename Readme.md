@@ -8,10 +8,16 @@
 <summary>More theme</summary>
 
 ##### asoul
-![asoul](https://moe-counter.kuroneko6423.com/get/@demo?theme=asoul)
+![asoul](https://count.getloli.com/get/@demo?theme=asoul)
 
 ##### moebooru
-![moebooru](https://moe-counter.kuroneko6423.com/get/@demo?theme=moebooru)
+![moebooru](https://count.getloli.com/get/@demo?theme=moebooru)
+
+##### rule34
+![Rule34](https://count.getloli.com/get/@demo?theme=rule34)
+
+##### gelbooru
+![Gelbooru](https://count.getloli.com/get/@demo?theme=gelbooru)</details>
 
 ## Demo
 [https://moe-counter.kuroneko6423.com](https://moe-counter.kuroneko6423.com)
@@ -55,6 +61,8 @@ export DB_URL=mongodb+srv://account:passwd@***.***.***.mongodb.net/db_count
 *   [replit](https://replit.com/)
 *   [A-SOUL_Official](https://space.bilibili.com/703007996)
 *   [moebooru](https://github.com/moebooru/moebooru)
+*   rule34.xxx NSFW
+*   gelbooru.com NSFW
 *   [Icons8](https://icons8.com/icons/set/star)
 
 ## License
